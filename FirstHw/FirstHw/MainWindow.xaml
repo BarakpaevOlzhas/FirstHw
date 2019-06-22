@@ -1,0 +1,17 @@
+﻿<Window x:Class="FirstHw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstHw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="66,72,0,0" TextWrapping="Wrap" Name="textBoxIp" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="407,72,0,0" TextWrapping="Wrap" Name="textBoxHost" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.4,-0.964"/>
+        <Button Content="find" HorizontalAlignment="Left" Margin="211,72,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="ButtonClickTwo"/>
+        <Button Content="find" HorizontalAlignment="Left" Margin="551,72,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="ButtonClickOne"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,126,0,0" TextWrapping="Wrap" Name="textBlockHost"  VerticalAlignment="Top" Height="293" Width="276"/>
+        <TextBlock HorizontalAlignment="Left" Margin="407,126,0,0" TextWrapping="Wrap" Name="textBlockIp"  VerticalAlignment="Top" Height="293" Width="276"/>
+    </Grid>
+</Window>
